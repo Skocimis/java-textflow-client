@@ -46,16 +46,4 @@ public class TextFlowClient {
             return new TextFlowSendMessageResult("asd");
         }
     }
-
-
-    public static void main(String[] args) {
-        TextFlowClient client = new TextFlowClient("N70NdGmKlHcd4Mug4ChMWrC45cE0CQHBWPiKlFeR3BmDVLgEejtQoGvyVy7yVqL");
-        var result = client.sendSMS("+38123575575757575252422", "Poruka iz jave");
-        if(result.isOk()){
-            System.out.println(result.getData().getPrice());
-        }
-        else {
-            System.out.println(result.getMessage());
-        }
-    }
 }
