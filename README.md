@@ -12,7 +12,7 @@ Use the following dependency in your project to grab via Maven:
        <dependency>
           <groupId>me.textflow</groupId>
           <artifactId>client</artifactId>
-          <version>1.0.2</version>
+          <version>1.0.3</version>
        </dependency>
 ```
 ## Sample Usage
