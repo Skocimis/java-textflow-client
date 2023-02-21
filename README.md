@@ -2,6 +2,11 @@
 
 [![Maven Central](https://img.shields.io/maven-central/v/me.textflow/client.svg)](https://mvnrepository.com/artifact/me.textflow/client)
 
+
+## Documentation
+
+Here you will see just a sample usage of sending an SMS, for more instructions (including methods for user verification) check out our [official Java documentation](https://docs.textflow.me/java). 
+
 ## Installation
 
 java-textflow-client uses Maven. At present the jars *are* available from a public [maven](https://mvnrepository.com/artifact/me.textflow/client) repository.
